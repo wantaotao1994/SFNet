@@ -11,8 +11,8 @@ namespace SFNet.Test
     public class UnitTest1
     {
         SFNet.SFNetConfig _sFNetConfig = new SFNetConfig() {
-            CheckCode = "yMoHRKxQn3eoITYMplGB9XSoUJd1u4c5",
-            UserCode = "YWBJXXKJ"
+            CheckCode = "",//你的校验码
+            UserCode = ""//你的顾客编码
 
 
         };
@@ -73,7 +73,7 @@ namespace SFNet.Test
                  ParcelQuantity = 1,
                  PayMethod =3,
                  IsGenBillNo =1,
-                 Custid = "7551234567",  //你的月结账号
+                 Custid = "",  //你的月结账号
                  CustomsBatchs = "",
                  Sendstarttime ="",
                  CarGo= new CarGoBody() {
